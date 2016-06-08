@@ -50,3 +50,25 @@ h2{
 .p{
   font-size: 30px;
 }
+.icons{
+  display:inline-block;
+  width:100%;
+
+}
+.facebook{
+  border: 4px double #4f5b60;
+  color: #abab81;
+  border-radius: 50%;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  padding: 11px;
+  position: relative;
+  background: transparent;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  margin: 22px 8px;
+}
+.fb{
+  
+}
