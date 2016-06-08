@@ -11,9 +11,42 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: black;
+  z-index: -20;
+  background-color: #2c3e50;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+}
+h2{
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 66px;
+}
+.section{
+
+	/*height: calc(100vh - 40px);*/
+
+	height: 100vh;
+	max-width: 100vw;
+	z-index: 1;
+	position: relative;
+	text-align: center;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-transform: translate3d(0,0,0);
+
+}
+
+.name{
+
+  width:50%;
+
+}
+.p{
+  font-size: 30px;
 }
