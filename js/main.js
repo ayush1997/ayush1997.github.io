@@ -113,3 +113,8 @@ particlesJS("particles-js", {
 
 
 /* ---- stats.js config ---- */
+var audioElement = document.getElementById("player");
+audioElement.addEventListener("canplay", function() {
+    var source = context.createMediaElementSource(audioElement);
+    source.connect(context.destination);
+});
