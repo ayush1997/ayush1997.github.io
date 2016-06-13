@@ -111,6 +111,9 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
+var scene = document.getElementById('scene');
+var parallax = new Parallax(scene);
+
 
 //audi vis
 //
