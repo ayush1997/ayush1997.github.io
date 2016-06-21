@@ -150,14 +150,14 @@ p{
 }
   .head{
     font-size: 13vw;
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
     padding: 0 !important;
 
   }
   .text{
     font-size: 4vw;
-    margin-bottom: 4px;
-    margin-top: 5px;
+    margin-bottom: 4px !important;
+    margin-top: 5px !important;
   }
   .ico{
     border: 4px double white;
@@ -165,12 +165,12 @@ p{
     display: inline-block;
     width: 20px;
     height: 20px;
-    padding: 5px;
+    padding: 5px !important;
     position: relative;
     background: transparent;
     transition: all 0.2s ease;
     text-decoration: none;
-    margin: 0px 3px;
+    margin: 0px 3px !important;
 
   }
 .icons{
@@ -182,12 +182,12 @@ p{
     display: inline-block;
     width: 20px;
     height: 20px;
-    padding: 10px 8px 8px 8px;
+    padding: 10px 8px 8px 8px !important;
     position: relative;
     background: transparent;
     transition: all 0.2s ease;
     text-decoration: none;
-    margin: 0px 8px;
+    margin: 0px 8px !important;
   }
 
   .fa-2x{
@@ -195,5 +195,9 @@ p{
   }
   .fa-3x{
     font-size: 2em !important;
+  }
+  ul{
+    padding:0px !important;
+  
   }
 }
