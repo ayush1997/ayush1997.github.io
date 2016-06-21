@@ -13,17 +13,22 @@ body {
   height: 100%;
   z-index: -20;
   background-color: black;
-  background-image: url("");
+  /*background: linear-gradient(#000000,#191919);*/
+  /*background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 50%;*/
 }
 .head{
-  color: #2c3e50;
+  color: #32CD32;
   /*font-family: 'Karla', sans-serif;*/
   font-family: 'Lustria', serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 90px;
-  font-weight: 900;
+  font-weight: 600;
+
   margin-bottom: 20px;
 }
 .section{
@@ -55,6 +60,9 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   color:white;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .icons{
   display:inline-block;
@@ -78,7 +86,7 @@ body {
   margin: 22px 8px;
 }
 .ico:hover{
-  border: 4px solid green;
+  border: 4px solid #abab81;
   color: #abab81;
   border-radius: 50%;
   display: inline-block;
@@ -93,16 +101,16 @@ body {
 }
 
 .fb{
-  color:white;
+  color:#32CD32;
 }
 .lin{
-  color:white;
+  color:#32CD32;
 }
 .git{
-  color:white;
+  color:#32CD32;
 }
 .twit{
-  color:white;
+  color:#32CD32;
 }
 
 #bar {

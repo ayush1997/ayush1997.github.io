@@ -10,7 +10,7 @@ particlesJS("particles-js", {
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#32CD32"
     },
     "shape": {
       "type": "circle",
@@ -38,7 +38,7 @@ particlesJS("particles-js", {
       }
     },
     "size": {
-      "value": s,
+      "value": 3,
       "random": true,
       "anim": {
         "enable": false,
@@ -70,7 +70,7 @@ particlesJS("particles-js", {
     }
   },
   "interactivity": {
-    "detect_on": "canvas",
+    "detect_on": "window",
     "events": {
       "onhover": {
         "enable": true,
@@ -91,7 +91,7 @@ particlesJS("particles-js", {
       },
       "bubble": {
         "distance": 400,
-        "size": s,
+        "size": 3,
         "duration": 2,
         "opacity": 8,
         "speed": 3
@@ -115,7 +115,8 @@ var scene = document.getElementById('scene');
 var parallax = new Parallax(scene);
 var scene1 = document.getElementById('scene1');
 var parallax = new Parallax(scene1);
-
+var scene2 = document.getElementById('scene2');
+var parallax = new Parallax(scene2);
 //audi vis
 //
 // sliderValue=8;
