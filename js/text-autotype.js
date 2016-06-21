@@ -1,6 +1,6 @@
-var i = 1; 
+var i = 1;
 var j= -1;
-var list = ['Web Developer.','Programmer.','Graphic Designer.','Game Developer.'];
+var list = ['Programmer.Developer.Hacker.Learner'];
 var a=list[0];
 var len = list.length;
 var num = 0;
@@ -17,10 +17,10 @@ function txt(){
 				i++;
 			}
 		else
-			{	
+			{
 				i = -1;}
 	}
-	else 
+	else
 	{
 		if(-1*i != a.length)
 			{
@@ -32,12 +32,12 @@ function txt(){
 				var flag = ret_index(a);
 				a = list[flag];
 			}
-			
-			
+
+
 	}
 
-	
-		
+
+
 }
 function ret_index(a){
 	var index = list.indexOf(a);
@@ -49,4 +49,4 @@ function ret_index(a){
 }
 
 
-setInterval(txt,190);
+setInterval(txt,170);

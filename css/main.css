@@ -26,9 +26,10 @@ body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-family: 'Montserrat', sans-serif;
-  font-size: 90px;
+  font-size: 7vw;
   font-weight: 600;
-  margin-bottom: 20px;
+  line-height: 20px;
+  margin-bottom: 40px;
 }
 p{
   display: inline-block !important;
@@ -60,7 +61,7 @@ p{
 }
 .text{
   font-size: 25px;
-  margin-top: 0px;
+  margin-top: 20px;
   margin-bottom: 0px;
   color:white;
   font-family: 'Raleway', sans-serif;
@@ -74,9 +75,12 @@ p{
   margin:0;
 
 }
+.fb, .lin, .git, .twit, .mail, .res{
+  color:#32CD32;
+}
+
 .ico{
-  border: 4px double #4f5b60;
-  color: #abab81;
+  border: 4px double white;
   border-radius: 50%;
   display: inline-block;
   width: 20px;
@@ -88,33 +92,37 @@ p{
   text-decoration: none;
   margin: 22px 8px;
 }
-.ico:hover{
-  /*border: 4px solid #abab81;
-  color: #abab81;*/
+
+.ico-res{
+  border: 4px double white;
   border-radius: 50%;
   display: inline-block;
-  width: 20px;
-  height: 20px;
-  padding: 11px;
+  width: 40px;
+  height: 40px;
+  padding: 10px 8px 8px 8px;
   position: relative;
   background: transparent;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   text-decoration: none;
-  margin: 22px 8px;
-  transform: translateY(-3px);
+  margin: 0px 8px;
 }
-
-.fb{
-  color:#32CD32;
+.ico:hover .fb{
+  color:white;
 }
-.lin{
-  color:#32CD32;
+.ico:hover .lin{
+  color:white;
 }
-.git{
-  color:#32CD32;
+.ico:hover .git{
+  color:white;
 }
-.twit{
-  color:#32CD32;
+.ico:hover .mail{
+  color:white;
+}
+.ico:hover .twit{
+  color:white;
+}
+.ico:hover .res{
+  color:white;
 }
 
 #bar {
@@ -133,9 +141,57 @@ p{
         float: left;
     }
 
+@media screen and (max-width: 600px) {
 
-.mail{
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
+.name{
+  width:100%;
+}
+  .head{
+    font-size: 13vw;
+    margin-bottom: 0px;
+    padding: 0 !important;
+    
+  }
+  .text{
+    font-size: 4vw;
+    margin-bottom: 4px;
+    margin-top: 5px;
+  }
+  .ico{
+    border: 4px double white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    position: relative;
+    background: transparent;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    margin: 0px 3px;
+
+  }
+.icons{
+  margin-bottom: 8px;
+}
+  .ico-res{
+    border: 4px double white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 10px 8px 8px 8px;
+    position: relative;
+    background: transparent;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    margin: 0px 8px;
+  }
+
+  .fa-2x{
+    font-size: 1.5em !important;
+  }
+  .fa-3x{
+    font-size: 2em !important;
+  }
 }
