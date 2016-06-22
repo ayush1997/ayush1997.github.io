@@ -6,7 +6,7 @@ particlesJS("particles-js", {
       "value": 80,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 700
       }
     },
     "color": {
@@ -84,7 +84,7 @@ particlesJS("particles-js", {
     },
     "modes": {
       "grab": {
-        "distance": 300,
+        "distance": 200,
         "line_linked": {
           "opacity": 1
         }
